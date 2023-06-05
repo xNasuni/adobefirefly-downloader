@@ -6,4 +6,6 @@ This can only download images **without the watermark** from the **Generative Fi
 
 ## Extra Information
 
+> intended for [adobe firefly](https://firefly.adobe.com)
+> 
 > thank you~!
