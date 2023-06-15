@@ -1,3 +1,5 @@
+// I HIGHLY RECOMMEND TO USE THE UNIVERSAL SCRIPT AS IT IS MORE INTUITIVE, HELPFUL AND EASIER TO USE.
+
 (async () => {
     if (document.getElementsByTagName('clio-inpaint').length == 0) {
         return window.alert('You need to generate an image before you run this!')
