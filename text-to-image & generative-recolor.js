@@ -1,3 +1,5 @@
+// I HIGHLY RECOMMEND TO USE THE UNIVERSAL SCRIPT AS IT IS MORE INTUITIVE, HELPFUL AND EASIER TO USE.
+
 (async () => {
     if (document.getElementsByClassName('zytb3jxS7InGo39qdpCi').length != 4) {
         return window.alert('You need to generate images before you run this!')
