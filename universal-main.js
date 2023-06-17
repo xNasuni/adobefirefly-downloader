@@ -98,6 +98,24 @@
     }
 
     if (PageType == 'texteffects') {
-        return window.alert('This type of AI isn\'t supported yet, but it will be soon!')
+        function GetCanvas() {
+            return document.getElementById('F9m7_EUFfq4HgYC1dC0L')
+        }
+
+        function DownloadCanvas(Canvas, FileName) {
+            var DownloadElement = document.createElement('a')
+            DownloadElement.setAttribute('download', FileName)
+
+            var ImageData = Canvas.toDataURL('image/png')
+
+            var URL = ImageData.replace(/^data:image\/png/, 'data:application/octet-stream');
+
+            DownloadElement.setAttribute('href', URL)
+            DownloadElement.click()
+
+            DownloadElement.remove()
+        }
+
+        DownloadCanvas(GetCanvas(), `firefly-${Date.now()}.jpg`)
     }
 })()
