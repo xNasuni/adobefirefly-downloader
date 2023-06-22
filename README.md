@@ -6,7 +6,7 @@ This can download images from adobe firefly without the watermark. Generate the 
 
 ### Updates
 > Now works for **Text To Image** and **Generative Recolor** - ***(6/15/2023)***<br/>
-> Now works for **Text Effects** - ***(6/17/2023)***
+> Now works for **Text Effects** - ***(6/17/2023)***<br/>
 > Fixed **Generative Fill**, broke because of one word - ***(6/21/2023)***
 
 ## Extra Information
