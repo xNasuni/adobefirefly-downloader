@@ -16,7 +16,7 @@
             Type = 'texteffects'
         }
 
-        if (URL.includes('firefly.adobe.com/generate/inpaint')) {
+        if (URL.includes('firefly.adobe.com/generate/inpaint') || URL.includes('firefly.adobe.com/upload/inpaint')) {
             Type = 'genfill'
         }
 
