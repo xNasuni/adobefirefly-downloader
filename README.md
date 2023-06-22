@@ -7,15 +7,16 @@ This can download images from adobe firefly without the watermark. Generate the 
 ### Updates
 > Now works for **Text To Image** and **Generative Recolor** - ***(6/15/2023)***<br/>
 > Now works for **Text Effects** - ***(6/17/2023)***
+> Fixed **Generative Fill**, broke because of one word - ***(6/21/2023)***
 
 ## Extra Information
 
 > intended for [adobe firefly](https://firefly.adobe.com)<br/>
 > thank you~!<br/>
-> **I recommend not to use this script for the Text Effects because you can simply download it from adobe and remove the watermark since there is nothing there most of the time and downloading it from the canvas makes it look pixelated!**
+> **this is probably the last update until adobe adds new things or breaks these scripts**!<br/>
+> **I recommend not to use this script for the Text Effects because you can simply download it from adobe and remove the watermark by painting over it since all it covers is pretty much the static background color and downloading it from the canvas makes it look pixelated!**
 
 ### Comparison
-> The left picture is the one downloaded from using the download button from adobe firefly
-> 
+> The left picture is the one downloaded from using the download button from adobe firefly<br/>
 > The right picture is the one downloaded with this script
 <img src="./showcase.png"/>
