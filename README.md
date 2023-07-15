@@ -5,9 +5,9 @@ This can download images from adobe firefly without the watermark. Generate the 
 > This script downloads the images and saves the **image data** to a file called "firefly-" and then the **current unix time**, the image index with a suffix of a "@", and the file extension will be a **.jpg**
 
 ### Updates
-> Now works for **Text To Image** and **Generative Recolor** - ***(6/15/2023)***<br/>
-> Now works for **Text Effects** - ***(6/17/2023)***<br/>
-> Fixed **Generative Fill**, broke because of one word - ***(6/21/2023)***
+> [**`d3479da`**](https://github.com/xNasuni/adobefirefly-downloader/commit/d3479da7479507ba97d88d8112bb6d9498560dba) Now works for **Text To Image** and **Generative Recolor** - **_(6/15/2023)_**<br/>
+> [**`e4c1b2d`**](https://github.com/xNasuni/adobefirefly-downloader/commit/e4c1b2d7a3b0ea7527a58ed8bed767119bb661fc) Now works for **Text Effects** - **_(6/17/2023)_**<br/>
+> [**`e6c4b67`**](https://github.com/xNasuni/adobefirefly-downloader/commit/e6c4b67f94f440f5a33389a45ffcba50bd349992) Fixed **Generative Fill**, broke because of one word - **_(6/21/2023)_**
 
 ## Extra Information
 
