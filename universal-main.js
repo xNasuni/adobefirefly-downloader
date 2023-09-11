@@ -8,7 +8,7 @@
             Type = 'recolorimages'
         }
 
-        if (URL.includes('firefly.adobe.com/generate/images')) {
+        if (URL.includes('firefly.adobe.com/inspire/images') || URL.includes('firefly.adobe.com/generate/images')) {
             Type = 'text2image'
         }
 
@@ -101,6 +101,14 @@
         function GetCanvas() {
             return document.getElementById('F9m7_EUFfq4HgYC1dC0L')
         }
+
+        if (GetCanvas() == null) {
+            return window.alert('You need to generate an image before you run this!')
+        }
+
+        window.alert("I highly recommend downloading the image through adobe for this because if you download it through here, the quality is decreased, and if you download it through adobe you can easily remove the watermark because it's covering nothing most of the time. ")
+        var Yes = window.confirm("Do you want to continue?")
+        if (!Yes) { return; }
 
         function DownloadCanvas(Canvas, FileName) {
             var DownloadElement = document.createElement('a')
