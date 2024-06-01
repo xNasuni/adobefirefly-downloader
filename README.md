@@ -17,6 +17,8 @@ This can download images from adobe firefly without the watermark. Generate the 
 > [**`e6c4b67`**](https://github.com/xNasuni/adobefirefly-downloader/commit/e6c4b67f94f440f5a33389a45ffcba50bd349992) Fixed **Generative Fill**, broke because of one word - **_(6/21/2023)_** <br/>
 > [**`1596f1d`**](https://github.com/xNasuni/adobefirefly-downloader/commit/1596f1d4c39654067a4b90b8f8577a4a33492468) Fixed **Text To Image** & Dropped support for single scripts. See [universal-main.js](https://github.com/xNasuni/adobefirefly-downloader/blob/main/universal-main.js)  - **_(9/11/2023)_**<br/>
 > [**`08bf74a`**](https://github.com/xNasuni/adobefirefly-downloader/commit/08bf74a70899529dd5aaea2caac577243382d2f3) Added userscript for more fluid integration. See [adobefirefly-dl.user.js](https://github.com/xNasuni/adobefirefly-downloader/blob/main/adobefirefly-dl.user.js) - **_(12/25/2023)_** <br/>
+> [**`0e24a00`**](https://github.com/xNasuni/adobefirefly-downloader/commit/0e24a00fa38c1f452a1b9e96cba04a12723a076f) Fixed **GetCanvas()** function not working due to a UI change in the website. See [Issue #3](https://github.com/xNasuni/adobefirefly-downloader/issues/3) for more details - **_(06/01/2024)_** <br/>
+
 
 ## Extra Information
 
