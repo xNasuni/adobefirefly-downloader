@@ -5,7 +5,7 @@
 // @author      Mia @ github.com/xNasuni
 // @match       *://firefly.adobe.com/*
 // @grant       none
-// @version     1.0
+// @version     1.1
 // @updateURL   https://github.com/xNasuni/adobefirefly-downloader/raw/main/adobefirefly-dl.user.js
 // @downloadURL https://github.com/xNasuni/adobefirefly-downloader/raw/main/adobefirefly-dl.user.js
 // @supportURL  https://github.com/xNasuni/adobefirefly-downloader/issues
@@ -138,7 +138,7 @@
                 }
 
                 function GetCanvas() {
-                    return document.getElementsByTagName('clio-inpaint')[0].shadowRoot.firstElementChild.querySelector('clio-md-stage').shadowRoot.querySelector('clio-md-compositor-canvas').shadowRoot.firstElementChild
+                    return document.getElementsByTagName('clio-inpaint')[0].shadowRoot.querySelector("clio-md-stage").shadowRoot.querySelector("clio-md-compositor-canvas").shadowRoot.querySelector("canvas")
                 }
 
                 function DownloadCanvas(Canvas, FileName) {
