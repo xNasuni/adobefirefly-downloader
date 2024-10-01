@@ -5,7 +5,7 @@
 // @author      Mia @ github.com/xNasuni
 // @match       *://firefly.adobe.com/*
 // @grant       none
-// @version     1.1
+// @version     1.2
 // @updateURL   https://github.com/xNasuni/adobefirefly-downloader/raw/main/adobefirefly-dl.user.js
 // @downloadURL https://github.com/xNasuni/adobefirefly-downloader/raw/main/adobefirefly-dl.user.js
 // @supportURL  https://github.com/xNasuni/adobefirefly-downloader/issues
@@ -39,9 +39,11 @@
         notificationDiv.style.transition = 'opacity 0.3s, transform 0.5s'
         notificationDiv.style.transform = 'translateY(0)'
 
-        containerDiv.childNodes.forEach(function (existingNotification) {
-            existingNotification.style.zIndex = (parseInt(existingNotification.style.zIndex) + 1).toString()
-        })
+        if (containerDiv.childNodes) {
+            containerDiv.childNodes.forEach(function (existingNotification) {
+                existingNotification.style.zIndex = (parseInt(existingNotification.style.zIndex) + 1).toString()
+            })
+        }
 
         containerDiv.appendChild(notificationDiv)
 
@@ -126,7 +128,6 @@
                     DownloadElement.remove()
                 }
 
-                window.alert('You might need to allow this website to download multiple files to download all of the images if you haven\'t already.')
                 for (let Index = 0; Index < 4; Index++) {
                     DownloadImage(GetImage(Index), `firefly-${Date.now()} @ ${Index}.jpg`)
                 }
